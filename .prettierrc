@@ -1,0 +1,27 @@
+{
+	"printWidth": 140,
+	"tabWidth": 4,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"bracketSpacing": false,
+	"jsxBracketSameLine": true,
+	"arrowParens": "avoid",
+	"parser": "typescript",
+	"proseWrap": "preserve",
+	"overrides": [
+		{
+			"files": "*.{js,jsx}",
+			"options": {"parser": "babylon"}
+		},
+		{
+			"files": "*.json",
+			"options": {
+				"parser": "json",
+				"singleQuote": false,
+				"trailingComma": "none"
+			}
+		}
+	]
+}

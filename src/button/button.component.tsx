@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {createContext, PureComponent} from 'react';
 import {buttonStyle, textStyle} from './button.style';
-import styled from 'react-emotion';
+import styled, {cx} from 'react-emotion';
 
 export const ButtonThemeContext = createContext({
 	button: '',
@@ -10,23 +10,25 @@ export const ButtonThemeContext = createContext({
 
 export type TButtonProps = {
 	className?: string;
+	textCss?: string;
 };
 
-const StyledButton = styled('button')`
-	border: none;
-`;
-const StyledText = styled('span')(textStyle);
+const StyledText = styled.span(textStyle);
 
-export class Button extends PureComponent<TButtonProps> {
+class RawButton extends PureComponent<TButtonProps> {
 	public render() {
-		const {children} = this.props;
+		const {children, className, textCss} = this.props;
 
 		return (
 			<ButtonThemeContext.Consumer>
-				{theme => <StyledButton>
-					<StyledText>{children}</StyledText>
-				</StyledButton>}
+				{theme => (
+					<button className={cx(buttonStyle, theme.button, className)}>
+						<StyledText className={cx(theme.text, textCss)}>{children}</StyledText>
+					</button>
+				)}
 			</ButtonThemeContext.Consumer>
 		);
 	}
 }
+
+export const Button = styled(RawButton)();
