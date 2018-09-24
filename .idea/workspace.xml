@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe71461-9b04-48fc-b983-ea97e7fed12b" name="Default Changelist" comment="start">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/button/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/contexts.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deep-cascade/deep-cascade.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deeper-cascade/deeper-cascade.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/form/form.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input/input.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/images.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button/button.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/button/button.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-card/demo-card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-card/demo-card.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="5fe71461-9b04-48fc-b983-ea97e7fed12b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -35,7 +15,7 @@
     <session id="-276353789">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.opened" value="3" />
         </counts>
@@ -77,7 +57,7 @@
           <entry key="json" value="58" />
           <entry key="ts" value="204" />
           <entry key="tsx" value="3462" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -85,7 +65,7 @@
           <entry key="CSS" value="26" />
           <entry key="JSON" value="118" />
           <entry key="JavaScript" value="28" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="TypeScript" value="204" />
           <entry key="TypeScript JSX" value="3462" />
           <entry key="tsconfig" value="5" />
@@ -153,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/contexts/contexts.component.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -262,7 +242,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="140" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
@@ -407,7 +387,7 @@
       <updated>1537458860694</updated>
       <workItem from="1537458862330" duration="270000" />
       <workItem from="1537459221888" duration="4441000" />
-      <workItem from="1537613570931" duration="10609000" />
+      <workItem from="1537613570931" duration="10902000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1537614144891</created>
@@ -416,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537614144891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="end">
+      <created>1537626768038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537626768038</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15320000" />
+    <option name="totallyTimeSpent" value="15613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -432,7 +419,7 @@
       <window_info id="npm" order="3" sideWeight="0.2955414" side_tool="true" visible="true" weight="0.1392405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49909583" visible="true" weight="0.17972831" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49909583" weight="0.17972831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,7 +442,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -680,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/src/contexts/contexts.component.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
